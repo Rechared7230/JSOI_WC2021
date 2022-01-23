@@ -1,5 +1,5 @@
-# JSOI_WC2021
- Winter Camp in JSOI2021
+# JSOI_WC2022
+ Winter Camp in JSOI2022
 # Start at 2022.1.22
 ``` Update 2022.1.22 ```
 >> The First Update which shows a new adventure.
