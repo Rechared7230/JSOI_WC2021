@@ -36,12 +36,14 @@ int main(){
         hs[ite]=hn;
         ite++;
     }
-    for(int i=0;i<ite;i++)cout<<as[i]<<" "<<hs[i]<<endl;
+    for(int i=0;i<ite;i++)
+        cout<<as[i]<<" "<<hs[i]<<endl;
     int ans;
     for(int i=0;i<ite;i++){
         //ans+=(as[i]*hs[i]*(hs[i]-1));
         int t=0;
-        for(int j=i;j<ite;j++)t+=hs[j];
+        for(int j=i;j<ite;j++)
+            t+=hs[j];
         cout<<t<<endl;
         ans+=(as[i]*t*(t-1))/2;
         cout<<ans<<endl;
